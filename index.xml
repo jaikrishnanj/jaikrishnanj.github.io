@@ -5,12 +5,20 @@
     <link>https://jaikrishnanj.github.io/</link>
       <atom:link href="https://jaikrishnanj.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jaikrishnan&#39;s Homepage</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 04 Jul 2019 11:12:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jaikrishnanj.github.io/img/icon-192.png</url>
       <title>Jaikrishnan&#39;s Homepage</title>
       <link>https://jaikrishnanj.github.io/</link>
     </image>
+    
+    <item>
+      <title>A note on the smoothness of the Minkowski function</title>
+      <link>https://jaikrishnanj.github.io/publication/haridas-2018-note/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaikrishnanj.github.io/publication/haridas-2018-note/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>What is the scientific approach?</title>
@@ -109,14 +117,6 @@ person with IQ 160 simply because he/she is more systematic and has a better wor
       <link>https://jaikrishnanj.github.io/talk/hyperbolic/</link>
       <pubDate>Thu, 23 Aug 2018 15:00:00 +0530</pubDate>
       <guid>https://jaikrishnanj.github.io/talk/hyperbolic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A note on the smoothness of the Minkowski function</title>
-      <link>https://jaikrishnanj.github.io/publication/haridas-2018-note/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://jaikrishnanj.github.io/publication/haridas-2018-note/</guid>
       <description></description>
     </item>
     
