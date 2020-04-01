@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pranav Haridas | Jaikrishnan&#39;s Homepage</title>
+    <link>https://jaikrishnanj.github.io/authors/pranav-haridas/</link>
+      <atom:link href="https://jaikrishnanj.github.io/authors/pranav-haridas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pranav Haridas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaikrishnanj.github.io/img/icon-192.png</url>
+      <title>Pranav Haridas</title>
+      <link>https://jaikrishnanj.github.io/authors/pranav-haridas/</link>
+    </image>
+    
+    <item>
+      <title>A 1-point poly-quadrature domain of order 1 not biholomorphic to a complete circular domain</title>
+      <link>https://jaikrishnanj.github.io/publication/haridas-2018/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://jaikrishnanj.github.io/publication/haridas-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A note on the smoothness of the Minkowski function</title>
+      <link>https://jaikrishnanj.github.io/publication/haridas-2018-note/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://jaikrishnanj.github.io/publication/haridas-2018-note/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

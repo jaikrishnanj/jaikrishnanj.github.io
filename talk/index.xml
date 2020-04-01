@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Jaikrishnan&#39;s Homepage</title>
+    <link>https://jaikrishnanj.github.io/talk/</link>
+      <atom:link href="https://jaikrishnanj.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Aug 2018 15:00:00 +0530</lastBuildDate>
+    <image>
+      <url>https://jaikrishnanj.github.io/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://jaikrishnanj.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>Hyperbolicity in Complex Analysis</title>
+      <link>https://jaikrishnanj.github.io/talk/hyperbolic/</link>
+      <pubDate>Thu, 23 Aug 2018 15:00:00 +0530</pubDate>
+      <guid>https://jaikrishnanj.github.io/talk/hyperbolic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finiteness theorems for holomorphic mappings from products of hyperbolic Riemann surfaces</title>
+      <link>https://jaikrishnanj.github.io/talk/tifr/</link>
+      <pubDate>Thu, 25 May 2017 15:00:00 +0530</pubDate>
+      <guid>https://jaikrishnanj.github.io/talk/tifr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Alexander phenomenon</title>
+      <link>https://jaikrishnanj.github.io/talk/iitb/</link>
+      <pubDate>Wed, 24 May 2017 15:00:00 +0530</pubDate>
+      <guid>https://jaikrishnanj.github.io/talk/iitb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proper Holomorphic Mappings of Balanced Domains</title>
+      <link>https://jaikrishnanj.github.io/talk/almora/</link>
+      <pubDate>Wed, 16 Nov 2016 14:00:00 +0530</pubDate>
+      <guid>https://jaikrishnanj.github.io/talk/almora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Computation and Applications</title>
+      <link>https://jaikrishnanj.github.io/talk/computability/</link>
+      <pubDate>Fri, 04 Mar 2016 11:00:00 +0530</pubDate>
+      <guid>https://jaikrishnanj.github.io/talk/computability/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

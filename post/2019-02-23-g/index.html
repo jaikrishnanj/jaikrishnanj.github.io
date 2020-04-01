@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jaikrishnan Janardhanan">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Note: This is a brief summary of my understanding. I am neither a statistician nor a differential psychologist. As my understanding evolves, so will this article. In particular, I will add precise references to the statements I call Facts.
+Consider any task that requires &ldquo;intelligence&rdquo;. It could be solving some puzzles involving geometry, abstract reasoning puzzles or even playing a complex video game. Surely, all of us will accept that these tasks require some form of intelligence.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://jaikrishnanj.github.io/post/2019-02-23-g/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://jaikrishnanj.github.io/post/2019-02-23-g/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Jaikrishnan&#39;s Homepage">
+  <meta property="og:url" content="https://jaikrishnanj.github.io/post/2019-02-23-g/">
+  <meta property="og:title" content="The $g$-factor explained for mathematicians | Jaikrishnan&#39;s Homepage">
+  <meta property="og:description" content="Note: This is a brief summary of my understanding. I am neither a statistician nor a differential psychologist. As my understanding evolves, so will this article. In particular, I will add precise references to the statements I call Facts.
+Consider any task that requires &ldquo;intelligence&rdquo;. It could be solving some puzzles involving geometry, abstract reasoning puzzles or even playing a complex video game. Surely, all of us will accept that these tasks require some form of intelligence."><meta property="og:image" content="https://jaikrishnanj.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://jaikrishnanj.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-02-23T11:12:00-04:00">
+    
+    <meta property="article:modified_time" content="2019-02-23T11:12:00-04:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jaikrishnanj.github.io/post/2019-02-23-g/"
+  },
+  "headline": "The $g$-factor explained for mathematicians",
+  
+  "datePublished": "2019-02-23T11:12:00-04:00",
+  "dateModified": "2019-02-23T11:12:00-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jaikrishnan Janardhanan"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jaikrishnan's Homepage",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jaikrishnanj.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Note: This is a brief summary of my understanding. I am neither a statistician nor a differential psychologist. As my understanding evolves, so will this article. In particular, I will add precise references to the statements I call Facts.\nConsider any task that requires \u0026ldquo;intelligence\u0026rdquo;. It could be solving some puzzles involving geometry, abstract reasoning puzzles or even playing a complex video game. Surely, all of us will accept that these tasks require some form of intelligence."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>The $g$-factor explained for mathematicians | Jaikrishnan&#39;s Homepage</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jaikrishnan&#39;s Homepage</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jaikrishnan&#39;s Homepage</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>The $g$-factor explained for mathematicians</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 23, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><em>Note: This is a brief summary of my understanding. I am neither a statistician nor a differential psychologist. As my understanding evolves, so will this article. In particular, I will add precise references to the statements I call Facts.</em></p>
+<p>Consider any task that requires &ldquo;intelligence&rdquo;. It could be solving some puzzles
+involving geometry, abstract reasoning puzzles or even playing a complex video
+game. Surely, all of us will accept that these tasks require some form of
+intelligence. In fact, experience suggests that these tasks <em>do not</em> involve the
+<em>same type</em> of intelligence. Furthermore, none of these tasks can be completed by pure intelligence. They involve other, but not necessarily <em>independent</em>, factors such as concentration, motivation, work ethic, practice, ambition, will-to-win, discipline and host of other factors that seem to be special to the task at the hand. It is <em>a priori</em> completely unclear that high ability in one task has any bearing on a different task. Of course, given that many of the factors (like concentration and motivation) listed above seem to have a role in <em>almost</em> all intelligent tasks, it stands to reason that there will be <em>some</em> correlation between ability in one task to the other. Indeed, this was observed by Spearman and has been subsequently replicated in tens of thousands of independent tests with only a handful of counter-results.</p>
+<p><strong>Fact 1: The ability of an individual in one task positively correlates with ability in any other.  This is known as Spearman's positive manifold. Sometimes the correlation is as low as 0.3 and sometimes as high as 0.97.  Typically it seems to be around 0.5-0.6.</strong></p>
+<p>Given two individuals with different abilities in a task, the variation in
+their abilities could occur from the variations in any one (or many) of the
+factors that are needed for the task.  If $x_1, x_2, \dots, x_n$ are the factors that have a bearing on ones ability $A$ in a task $T$, one can as a first approximation write</p>
+<p>$$
+A = c_1x_1 + c_2x_2 + \dots + c_n x_n
+$$</p>
+<p>Here the coefficients $c_i$ are determined by the task $T$ whereas the values
+of $x_i$ vary from individual to individual (the $x_i$ might not be constant for an individual and might depend on other factors like time of day, season, whether the individual is a good mood, etc)</p>
+<p>Spearman postulated the existence of one factor, which he named the $g$-factor to avoid any prejudice, that has a bearing on <strong>any</strong>  cognitive task.  So we may write</p>
+<p>$$
+A = c_g g + c_1 x_1 + \dots + c_n x_n
+$$</p>
+<p>He proposed the existence of the $g$-factor as an explanation of the positive manifold.  He devised a method called factor analysis that takes an individual's scores in a whole battery of cognitive tasks in which the scores are all positively correlated and distills the $g$-factor from the scores. Subsequent research has shown that the individual tasks themselves do not matter as long as there is a wide variety of them that involve reasoning, verbal ability, spatial reasoning, memory, processing, etc. as part of the battery.</p>
+<p><strong>Fact 2: The $g$-factor that one obtains by factor analysis does not depend on the choice of the battery of tasks as long as the battery involves a variety of tasks. As an extreme example, it has been found that the $g$-factor obtained from ability in a battery of video games has a correlation of 0.91 with the $g$-factor obtained from a standard IQ test!</strong></p>
+<p>Spearmen, and indeed no researcher in the field, view the $g$-factor as
+completely capturing every aspect of intelligence ! There might be tasks for
+which $c_g$ is very low. Indeed, this seems to be the case for many highly
+intelligent activities like Chess and Go in which memory, training and
+specialised factors overpower $g$.  There is also the matter of savants, i.e., individuals who possess extraordinary ability in only one task but whose IQ is often very low. One can view savants as possessing some unique feature in their brain that is well-adapted for one particular task. In fact, many savants are created after a head trauma.  It is also known from empirical studies that some aspects of factors like motivation and discipline are captured as a part of $g$.  It is interesting to note that originally Spearman viewed $g$ as capturing &ldquo;intellectual energy&rdquo;!  The term IQ gives the $g$-factor a bad reputation. Some assume without proper study that intelligence researchers claim all sorts of things that are simply untrue. This misunderstanding stems from prejudice and basic lack of academic integrity to engage with the literature before commenting.  Researchers most-definitely  do not claim that the $g$-factor captures all there is to intelligence. Indeed, musical ability, artistic ability, social ability etc. are not tested in an IQ test!</p>
+<p><strong>Fact 3: The $g$-factor is just one factor that is needed to score highly in a
+given task. Typically the $g$-factor is believed to contribute somewhere between
+30% and 80% of the variance between two individuals in a given test.  Some tests
+are highly $g$-loaded (especially those that involve high amounts of abstract
+reasoning) and others only mildly (those that involve a lot of memory). Tasks
+that involve only reasoning seem to be the most $g$-loaded where the correlation
+with the $g$-factor can be as high as a whopping 0.97! For spatial ability
+tasks, the correlation is 0.91. It is possible, and I believe quite common, for
+a person with IQ 130 to have significantly more achievement in academics than a
+person with IQ 160 simply because he/she is more systematic and has a better work ethic or has cultivated those skills that are special to the subject, etc.</strong></p>
+<p>It is also clear from many attempts that there currently does not seem to be any way to significantly enhance one's $g$-factor unless one has some a priori health issue like Iodine deficiency or depression or sleep issues, etc. In fact, the inter-test stability of the $g$-factor is  0.96, i.e., if one takes an IQ test today and then again six months later then the scores are very highly correlated. In fact, the stability of IQ over time is well-studied. One's IQ at age 11 is correlated to one's IQ at age 79 by 0.73!</p>
+<p><strong>Fact 4: The $g$-factor is largely stable over time and it is hitherto unknown whether it is possible to enhance it  consistently by practice or preparation. Of course, mild improvements (around 10 points) are possible by better schooling, better nutrition, exercise, cultivating discipline, good sleep, etc.</strong></p>
+<p>Because the $g$-factor seems to capture something that seems useful in every cognitive task, it stands to reason that higher $g$-factors might help in academic achievement. Indeed there is strong evidence to suggest this. One's IQ at age 11 is correlated by 0.8 to the performance in entrance exams 5 years later.  Also there is enough evidence to suggest that the $g$-factor is present in most academic achievement. This <strong>absolutely</strong> does not mean that the variation in academic achievement is solely because of $g$!  Any complex academic task like publishing a paper is simply impossible without extensive knowledge, discipline and motivation no matter how intelligent one is! And many of the individual tasks in publishing a paper might have $c_g$ close to $0$. For instance, dealing with collaborators and physically performing the experiment properly do not seem to have meaningful contribution from $g$. Even things like knowing when to take a break to relax seem to be unrelated to the $g$-factor! But certain tasks seem to be highly $g$-loaded. Empirical evidence suggests that the current college system of attending lectures and tutorials, reading notes and books, solving assignments and giving exams is substantially $g$-loaded. Most people with IQ less than 100 struggle in such a system and ideally one requires an IQ of 115 to have achievement in academics (this applies to only US and European colleges as in Indian colleges memory plays a more substantial role and whose correlation with $g$ is only 0.63). It is currently unknown if in a different system, learning can be made more efficient for these people. But given that people with autism now earn PhD degrees because of radical and novel methods of learning in childhood, it betrays extreme bias to claim that high intelligence is necessary for academic success.</p>
+<p><strong>Fact 6: The current college system is heavily $g$-loaded and people with IQ &lt; 100 are generally not high achievers in this system. It is hitherto unknown whether it is possible to devise alternate learning strategies to make the system more egalitarian. On the other hand, once the IQ scores cross a certain threshold, most variance in academic achievement in individuals do not stem from the $g$-factor but from a host of other factors like work ethics, knowledge and factors that are specialised to the subject.</strong></p>
+<p><strong>Final fact: This should be obvious but most (including expert mathematicians) miss this point: correlation makes sense only when there is a full range of values in the variables being correlated. Most people who oppose the $g$-factor as measuring something meaningful are often serious academics.  They often have deep interactions only with other academics who are also likely to have a substantially higher IQ than average. Apart from this, such academics often have a range of specialised skills as well as high amount of specialised knowledge. When the range is so restricted, the correlations completely fail. For instance, there is no substantial correlation between IQ scores and performance in college for MIT students. This is because, the range of IQ of MIT students is substantially more restrictive than the general population. The handful of counter-studies against the $g$-factor make this trivial mistake.</strong></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jaikrishnanj.github.io/post/2019-02-23-g/&amp;text=The%20$g$-factor%20explained%20for%20mathematicians" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jaikrishnanj.github.io/post/2019-02-23-g/&amp;t=The%20$g$-factor%20explained%20for%20mathematicians" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20$g$-factor%20explained%20for%20mathematicians&amp;body=https://jaikrishnanj.github.io/post/2019-02-23-g/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jaikrishnanj.github.io/post/2019-02-23-g/&amp;title=The%20$g$-factor%20explained%20for%20mathematicians" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=The%20$g$-factor%20explained%20for%20mathematicians%20https://jaikrishnanj.github.io/post/2019-02-23-g/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://jaikrishnanj.github.io/post/2019-02-23-g/&amp;title=The%20$g$-factor%20explained%20for%20mathematicians" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/jaikrishnan/avatar_hud59cccf01410c48bdd3f02f1790309a7_7401_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jaikrishnanj.github.io">Jaikrishnan Janardhanan</a></h5>
+      <h6 class="card-subtitle">INSPIRE Faculty</h6>
+      <p class="card-text">My research area is several complex variables and more specifically</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.in/citations?user=dQMlqdkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" integrity="sha256-vOIuDSYDirTfyr+S2MjFnhOz6Rgiz4ODFAHATG0rFxw=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.600a2e440c16093e23e26e90951c4d4b.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

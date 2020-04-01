@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indranil Biswas | Jaikrishnan&#39;s Homepage</title>
+    <link>https://jaikrishnanj.github.io/authors/indranil-biswas/</link>
+      <atom:link href="https://jaikrishnanj.github.io/authors/indranil-biswas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Indranil Biswas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaikrishnanj.github.io/img/icon-192.png</url>
+      <title>Indranil Biswas</title>
+      <link>https://jaikrishnanj.github.io/authors/indranil-biswas/</link>
+    </image>
+    
+    <item>
+      <title>Proper holomorphic mappings onto symmetric products of a Riemann surface</title>
+      <link>https://jaikrishnanj.github.io/publication/bharali-2008-proper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://jaikrishnanj.github.io/publication/bharali-2008-proper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
