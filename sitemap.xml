@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jaikrishnanj.github.io/authors/jaikrishnan/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jaikrishnanj.github.io/publication_types/2/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -143,24 +148,11 @@
   </url>
   
   <url>
-    <loc>https://jaikrishnanj.github.io/authors/jaikrishnan/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jaikrishnanj.github.io/teaching/teaching/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jaikrishnanj.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>https://jaikrishnanj.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jaikrishnanj.github.io/teaching/</loc>
   </url>
   
 </urlset>
